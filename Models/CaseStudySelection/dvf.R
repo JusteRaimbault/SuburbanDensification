@@ -34,7 +34,7 @@ sdvf2018 = dvf2018fua %>% group_by(fua) %>% summarise(count=n(), totprix = sum(v
 rm(dvf2018fua);gc()
 
 #ggplot(sdvf2018)+geom_sf(aes(color=count))
-
+# sdvf2018[,c("count","fua")] %>% arrange(count)
 
 dvf2021 <- read_csv(paste0(Sys.getenv('CS_HOME'),'/Data/DVF/DVFGeoloc/2021/full.csv'))
 dvf2021sf <- st_as_sf(dvf2021[!is.na(dvf2021$longitude)&!is.na(dvf2021$latitude),], coords=c("longitude","latitude"),crs=4326)
