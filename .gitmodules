@@ -1,0 +1,3 @@
+[submodule "Docs/Papers/MatchingAlgorithmsBenchmark-paper"]
+	path = Docs/Papers/MatchingAlgorithmsBenchmark-paper
+	url = git@github.com:JusteRaimbault/MatchingAlgorithmsBenchmark-paper.git
