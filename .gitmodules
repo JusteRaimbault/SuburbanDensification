@@ -1,3 +1,6 @@
 [submodule "Docs/Papers/MatchingAlgorithmsBenchmark-paper"]
 	path = Docs/Papers/MatchingAlgorithmsBenchmark-paper
 	url = git@github.com:JusteRaimbault/MatchingAlgorithmsBenchmark-paper.git
+[submodule "Models/MetadataPlugin/MetadataPlugin"]
+	path = Models/MetadataPlugin/MetadataPlugin
+	url = git@github.com:subdense/MetadataPlugin.git
