@@ -4,3 +4,6 @@
 [submodule "Models/MetadataPlugin/MetadataPlugin"]
 	path = Models/MetadataPlugin/MetadataPlugin
 	url = git@github.com:subdense/MetadataPlugin.git
+[submodule "Models/dashboard"]
+	path = Models/dashboard
+	url = git@github.com:subdense/dashboard.git
