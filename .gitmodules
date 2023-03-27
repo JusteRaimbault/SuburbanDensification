@@ -7,3 +7,6 @@
 [submodule "Models/dashboard"]
 	path = Models/dashboard
 	url = git@github.com:subdense/dashboard.git
+[submodule "Docs/Posters/JR-IGN-2023-PosterSubdense"]
+	path = Docs/Posters/JR-IGN-2023-PosterSubdense
+	url = git@github.com:subdense/JR-IGN-2023-PosterSubdense.git
