@@ -10,3 +10,9 @@
 [submodule "Docs/Posters/JR-IGN-2023-PosterSubdense"]
 	path = Docs/Posters/JR-IGN-2023-PosterSubdense
 	url = git@github.com:subdense/JR-IGN-2023-PosterSubdense.git
+[submodule "Models/Matching/geoxygene"]
+	path = Models/Matching/geoxygene
+	url = git@github.com:IGNF/geoxygene.git
+[submodule "Models/Matching/matching"]
+	path = Models/Matching/matching
+	url = git@github.com:subdense/matching.git
