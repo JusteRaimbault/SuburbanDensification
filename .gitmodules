@@ -16,3 +16,6 @@
 [submodule "Models/Matching/matching"]
 	path = Models/Matching/matching
 	url = git@github.com:subdense/matching.git
+[submodule "Docs/Communications/2024/MatchingBenchmark-FRCCS2024"]
+	path = Docs/Communications/2024/MatchingBenchmark-FRCCS2024
+	url = git@github.com:JusteRaimbault/MatchingBenchmark-FRCCS2024.git
