@@ -16,3 +16,6 @@
 [submodule "Models/Matching/matching"]
 	path = Models/Matching/matching
 	url = git@github.com:subdense/matching.git
+[submodule "Models/Matching/Validation/test-git-javascript"]
+	path = Models/Matching/Validation/test-git-javascript
+	url = git@github.com:subdense/test-git-javascript.git
