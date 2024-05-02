@@ -25,3 +25,6 @@
 [submodule "Docs/Communications/2024/CCS2024/CCS2024_Matching"]
 	path = Docs/Communications/2024/CCS2024/CCS2024_Matching
 	url = git@github.com:JusteRaimbault/CCS2024_Matching.git
+[submodule "Models/Matching/Validation/MatchingValidationSampling"]
+	path = Models/Matching/Validation/MatchingValidationSampling
+	url = git@github.com:subdense/MatchingValidationSampling.git
