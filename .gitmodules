@@ -28,3 +28,6 @@
 [submodule "Models/Matching/Validation/MatchingValidationSampling"]
 	path = Models/Matching/Validation/MatchingValidationSampling
 	url = git@github.com:subdense/MatchingValidationSampling.git
+[submodule "Docs/Communications/2024/AGILE2024-Subdense"]
+	path = Docs/Communications/2024/AGILE2024-Subdense
+	url = git@github.com:JusteRaimbault/AGILE2024-Subdense.git
