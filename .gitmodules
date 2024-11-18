@@ -34,3 +34,9 @@
 [submodule "Docs/Communications/2024/Subdense-Poster-AGILE2024"]
 	path = Docs/Communications/2024/Subdense-Poster-AGILE2024
 	url = git@github.com:subdense/Subdense-Poster-AGILE2024.git
+[submodule "Models/Matching/projetAppariement"]
+	path = Models/Matching/projetAppariement
+	url = https://github.com/paulguardiola/projetAppariement.git
+[submodule "Docs/Misc/PostDoc-SUBDENSE-LASTIG"]
+	path = Docs/Misc/PostDoc-SUBDENSE-LASTIG
+	url = git@github.com:subdense/PostDoc-SUBDENSE-LASTIG.git
