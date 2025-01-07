@@ -28,3 +28,6 @@
 [submodule "Models/Matching/Validation/MatchingValidationSampling"]
 	path = Models/Matching/Validation/MatchingValidationSampling
 	url = git@github.com:subdense/MatchingValidationSampling.git
+[submodule "Models/Matching/pymatch"]
+	path = Models/Matching/pymatch
+	url = git@github.com:umrlastig/pymatch.git
