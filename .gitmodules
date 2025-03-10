@@ -46,3 +46,6 @@
 [submodule "Docs/Misc/PostDoc-SUBDENSE-LASTIG"]
 	path = Docs/Misc/PostDoc-SUBDENSE-LASTIG
 	url = git@github.com:subdense/PostDoc-SUBDENSE-LASTIG.git
+[submodule "Models/ABMDensification"]
+	path = Models/ABMDensification
+	url = git@github.com:subdense/ABMDensification.git
