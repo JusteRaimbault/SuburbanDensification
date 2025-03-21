@@ -49,3 +49,6 @@
 [submodule "Models/ABMDensification"]
 	path = Models/ABMDensification
 	url = git@github.com:subdense/ABMDensification.git
+[submodule "Docs/Communications/2025/CCS2025/CCS25-Abstract-Annotator"]
+	path = Docs/Communications/2025/CCS2025/CCS25-Abstract-Annotator
+	url = git@github.com:subdense/CCS25-Abstract-Annotator.git
