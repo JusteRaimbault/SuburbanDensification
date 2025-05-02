@@ -20,7 +20,7 @@
 	path = Models/Matching/Validation/test-git-javascript
 	url = git@github.com:subdense/test-git-javascript.git
 [submodule "Docs/Communications/2024/MatchingBenchmark-FRCCS2024"]
-	path = Docs/Communications/2024/MatchingBenchmark-FRCCS2024
+	path = Docs/Papers/2024/MatchingBenchmark-FRCCS2024
 	url = git@github.com:JusteRaimbault/MatchingBenchmark-FRCCS2024.git
 [submodule "Docs/Communications/2024/CCS2024/CCS2024_Matching"]
 	path = Docs/Communications/2024/CCS2024/CCS2024_Matching
