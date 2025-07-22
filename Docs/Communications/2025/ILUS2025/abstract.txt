@@ -1,4 +1,8 @@
 
+TODO : cit com JR (contribution Paul G.)
+
+Raimbault, Juste; Perret, Julien; Olteanu-Raimond, Ana-Maria
+
 Improving the quality of building change detection based on geospatial vector data matching
 
 Quantifying urban dynamics through building change is an important component to plan for sustainable cities, in particular regarding issues related to densification and accessibility. While methods based on remote sensing images and machine learning on raster data have been recently thriving, methods based on change detection in vector data can offer a high resolution description of changes enriched with several attributes, but yet remain underexplored in the literature. Indeed, change detection in geospatial vector data using matching algorithms still faces technical difficulties. This contribution investigates how to improve the quality of such approaches. 
