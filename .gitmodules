@@ -52,3 +52,6 @@
 [submodule "Docs/Communications/2025/CCS2025/CCS25-Abstract-Annotator"]
 	path = Docs/Communications/2025/CCS2025/CCS25-Abstract-Annotator
 	url = git@github.com:subdense/CCS25-Abstract-Annotator.git
+[submodule "Docs/Papers/DensificationDrivers-paper"]
+	path = Docs/Papers/DensificationDrivers-paper
+	url = git@github.com:subdense/DensificationDrivers-paper.git
