@@ -1,0 +1,15 @@
+
+Improving the quality of building change detection based on geospatial vector data matching
+
+Quantifying urban dynamics through building change is an important component to plan for sustainable cities, in particular regarding issues related to densification and accessibility. While methods based on remote sensing images and machine learning on raster data have been recently thriving, methods based on change detection in vector data can offer a high resolution description of changes enriched with several attributes, but yet remain underexplored in the literature. Indeed, change detection in geospatial vector data using matching algorithms still faces technical difficulties. This contribution investigates how to improve the quality of such approaches. 
+
+More precisely, we tackle different complementary issues: (i) the lack of ground-truth datasets, for which we build a collaboratory annotation web platform, on which users annotate simultaneously observed changes in aerial imagery and expected matching links in corresponding vector datasets; (ii) the various performance of existing algorithms depending on the urban context, which we handle by introducing a novel multi-modelling algorithm combining geometric matching of areas (performing better on links between single features) with multi-criteria matching (performing better on multiple links); (iii) the dependence of algorithm performance to hyperparameters, which we optimise on ground truth data obtained in the first step (F-score indicator) using the OpenMOLE platform and a NSGA2 genetic optimisation algorithm.
+
+We illustrate the application of the approach in a comparative manner on two different European urban areas: Strasburg, France, and Dortmund, Germany. First results show a significantly better performance of the optimised multi-modelling algorithm, compared to optimised versions of single algorithms, and to versions with default parametrisations. Country differences in optimised parameters do not seem to be significant, suggesting a potential genericity of the approach. Future work will include the scaling of the approach to larger areas, and its test on more various types of urban form.
+
+Keywords : Building change detection; Geospatial vector data matching; Ground-truth data; Hyperparameters optimisation
+
+Bibliography [Please enter recent publications by the first author.]
+Bucher, B., Raimbault, J., Ndim, M., Raimond, A. M., Perret, J., Dembski, S., & Jehling, M. (2025). A Model of Building Changes to Support Comparative Studies and Open Discussions on Densification. ISPRS International Journal of Geo-Information, 14(4), 155.
+
+
