@@ -55,3 +55,6 @@
 [submodule "Docs/Papers/DensificationDrivers-paper"]
 	path = Docs/Papers/DensificationDrivers-paper
 	url = git@github.com:subdense/DensificationDrivers-paper.git
+[submodule "Models/Statistics/drivers_leaflet"]
+	path = Models/Statistics/drivers_leaflet
+	url = git@github.com:subdense/drivers_leaflet.git
