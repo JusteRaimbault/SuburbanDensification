@@ -58,3 +58,6 @@
 [submodule "Models/Statistics/drivers_leaflet"]
 	path = Models/Statistics/drivers_leaflet
 	url = git@github.com:subdense/drivers_leaflet.git
+[submodule "Models/Matching/Validation/annotate"]
+	path = Models/Matching/Validation/annotate
+	url = git@github.com:subdense/annotate.git
