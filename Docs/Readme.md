@@ -85,6 +85,36 @@ TODO collab on ABM -> use dashboard
 
 # Papers
 
+## 2025 status
+
+### Presentation final project meeting 4-5/11/2025:
+
+#### Published papers:
+Guardiola, P., Raimbault, J., Olteanu-Raimond, A. M., & Perret, J. (2024, May). Benchmarking algorithms for matching geospatial vector data. In Proceedings of the French Regional Conference on Complex Systems (pp. 277-280).
+
+(not lead author)
+ - dashboard
+ - rur
+
+#### Papers in progress:
+ - Multi-modelling algorithm for matching geospatial vector data (suite du papier frccs24 avec l'algo intégré et résultats de benchmark, target IJGIS)
+ - A collaborative open source annotator application to crowdsource ground-truth dataset for geospatial vector matching (suite de CCS24, target Transactions in GIS)
+ - An agent-based model of stakeholder dynamics in suburban densification (suite de JRIGN 2024, target JASSS)
+ - Plot-based quantification and simulation of suburban densification (target Geographical Analysis)
+
+(not lead author)
+ - simplu?
+ - densification drivers
+ - comparison indicators
+
+#### En suspens/ long-terme?
+ 
+ - multidate repository of building change ? (scale to countries? multi-data and multi-date? when algo validated!)
+
+
+
+## 2024 Status
+
  - dashboard => AGILE
  - indicators
  - data repository
