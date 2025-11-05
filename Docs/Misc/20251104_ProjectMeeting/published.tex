@@ -1,0 +1,41 @@
+%Please use LuaLaTeX or XeLaTeX
+\documentclass[11pt,aspectratio=169]{beamer}
+
+\title[Published papers]{Published papers}
+\date[2025/11/04]{Subdense final meeting}
+\author[JR]{Raimbault et al.}
+\institute[IGN-ENSG]{LaSTIG, Univ. Gustave Eiffel, IGN-ENSG}
+
+\usetheme{lastig}
+
+\colorlet{titlefgcolor}{LASTIGBlue}
+\colorlet{accentcolor}{LASTIGRed}
+
+\begin{document}
+
+%\titleframe
+
+
+\begin{frame}[fragile]{Benchmark of matching algorithms}
+
+\footnotesize
+
+
+\textbf{Published as } Guardiola, P., Raimbault, J., Olteanu-Raimond, A. M., and Perret, J. (2024). Benchmarking algorithms for matching geospatial vector data. In \textit{Proceedings of the French Regional Conference on Complex Systems} (pp. 277-280).
+
+
+\begin{center}
+	
+	\includegraphics[width=0.35\linewidth]{figures/result_algo.png}\hspace{0.5cm}
+	\includegraphics[width=0.4\linewidth,height=0.35\textheight]{figures/benchmark.png}	
+	
+\end{center}
+
+Bi-objective benchmark optimising for \textbf{performance} (F-score on a $\simeq$2k buildings ground truth dataset) and \textbf{runtime}, for different parametrisations of two algorithms (multi-criteria and Geometric Matching of Areas): (i) various algorithm performances; (ii) under-detection of change by GMoA and over-detection by MCA; (iii) GMA better for m-n links, MCA better for 1-1 links.
+
+$\rightarrow$ need fine-tuning to each case, region and urban morphology; or a \textbf{new approach combining both}.
+
+\end{frame}
+
+
+\end{document}

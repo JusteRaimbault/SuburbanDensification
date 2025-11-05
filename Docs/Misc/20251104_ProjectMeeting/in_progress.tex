@@ -1,0 +1,204 @@
+%Please use LuaLaTeX or XeLaTeX
+\documentclass[11pt,aspectratio=169]{beamer}
+
+\title[Papers in progress]{Papers in progress}
+\date[05/11/2025]{Subdense final meeting}
+\author[LaSTIG, IGN-ENSG]{Raimbault et al.}
+\institute[IGN-ENSG]{LaSTIG, Univ. Gustave Eiffel, IGN-ENSG}
+
+\usetheme{lastig}
+
+\colorlet{titlefgcolor}{LASTIGBlue}
+\colorlet{accentcolor}{LASTIGRed}
+
+\begin{document}
+
+%\titleframe
+
+% Papier Vera
+% Multi-modelling algorithm for matching geospatial vector data (suite du papier frccs24 avec l'algo intégré et résultats de benchmark, target IJGIS)
+%A collaborative open source annotator application to crowdsource ground-truth dataset for geospatial vector matching (suite de CCS24, target Transactions in GIS)
+%An agent-based model of stakeholder dynamics in suburban densification (suite de JRIGN 2024, target JASSS)
+%Plot-based quantification and simulation of suburban densification (travail principalement mené par Maxime Colomb, target Geographical Analysis)
+% SimPLU: benchmark runs many countries? visu 3d simulation outputs
+
+
+\begin{frame}[fragile]{A spatial statistics analysis of residential densification drivers across France, Germany and England}
+
+\vspace{-0.3cm}
+{\footnotesize Götze V., Raimbault J., Ehrhardt D., Olteanu-Raimond A.-M., Perret J.; \textbf{target journal:} CEUS; \textbf{submission planned:} December 2025; \textbf{progress: } 80\% (30MH remaining).}
+
+\begin{columns}
+\begin{column}{0.7\linewidth}
+
+\begin{center}
+	\includegraphics[height=0.65\textheight]{figures/DensificationDrivers_logit.png}
+	\includegraphics[height=0.65\textheight]{figures/DensificationDrivers_GWR_Strasbourg_scaled_density.jpg}
+\end{center}
+
+\end{column}
+\begin{column}{0.4\linewidth}
+
+	\textit{Statistical models linking explanatory variables to the presence of densification}
+	
+	\medskip
+	
+	\textbf{Contributions}
+	
+	$\rightarrow$ modelling with heterogeneous data across 3 countries
+	
+	$\rightarrow$ spatial statistics for densification
+	
+	$\rightarrow$ sensitivity analysis
+	
+	\medskip
+	
+	\textbf{Takeaways}
+	
+	$\rightarrow$ varying explanatory power across countries
+	
+	$\rightarrow$ strong effect of spatial lag and spatial structures like core-periphery
+	
+	$\rightarrow$ no generic rules, need for tailored planning policies 
+	
+
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{A multi-modelling algorithm for matching geospatial vector data}
+
+\vspace{-0.3cm}
+{\footnotesize Raimbault J., Guardiola P., Perret J., Olteanu-Raimond A.-M.; \textbf{target journal:} IJGIS; \textbf{submission planned:} March 2026; \textbf{progress: } 50\% (90MH remaining), presented at CCS2024.}
+
+\begin{columns}
+\begin{column}{0.7\linewidth}
+
+\begin{center}
+	\includegraphics[width=0.45\linewidth]{figures/Matching_algo.png}
+	\includegraphics[width=0.54\linewidth]{figures/Matching_synthdata_1.png}
+\end{center}
+
+
+\end{column}
+\begin{column}{0.4\linewidth}
+
+	\textit{A novel algorithm for matching combining GMoA and MCA into a multi-modelling approach}
+	
+	\medskip
+	
+	\textbf{Contributions}
+	
+	$\rightarrow$ novel algorithm performing better than state-of-the-art for change detection
+	
+	$\rightarrow$ validated and benchamrked on synthetic data and ground-truth datasets
+	
+	$\rightarrow$ an open python library for matching \url{https://github.com/umrlastig/pymatch}
+	
+	\medskip
+	
+	\textbf{Takeways}
+	
+	$\rightarrow$ improved quality of change detection, thus of quantitative analysis of densification
+	
+
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+
+
+\begin{frame}[fragile]{A collaborative open source annotator application to crowdsource ground-truth dataset for geospatial vector matching}
+
+\vspace{-0.3cm}
+{\footnotesize Perret J., Raimbault J., Olteanu-Raimond A.-M.; \textbf{target journal:} Transactions in GIS; \textbf{submission planned:} April 2026; \textbf{progress: } 75\% (60MH remaining), presented at CCS2025.}
+
+\begin{columns}
+\begin{column}{0.7\linewidth}
+
+\begin{center}
+	\includegraphics[width=\linewidth]{figures/Annotator.png}
+\end{center}
+
+
+\end{column}
+\begin{column}{0.4\linewidth}
+
+	\textit{An open web application to produce ground-truth datasets for matching}
+	
+	\medskip
+	
+	\textbf{Contributions}
+	
+	$\rightarrow$ web app to annotate matching links
+	
+	$\rightarrow$ proof-of-concept of a ``serverless'' deployment with user input through git
+	
+	\medskip
+	
+	\textbf{Takeways}
+	
+	$\rightarrow$ ground-truth datasets to optimise the matching algorithm
+	
+	$\rightarrow$ git feedback architecture to be integrated into the dashboard
+
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{An agent-based model of stakeholder dynamics in suburban densification}
+
+\vspace{-0.3cm}
+{\footnotesize Raimbault J., Perret J., Götze V.; \textbf{target journal:} JASSS; \textbf{submission planned:} June 2026; \textbf{progress: } 10\% (120MH remaining), presented at JR-IGN-ENSG 2025.}
+
+\begin{columns}
+\begin{column}{0.7\linewidth}
+
+\begin{center}
+	\includegraphics[width=\linewidth]{figures/Annotator.png}
+\end{center}
+
+
+\end{column}
+\begin{column}{0.4\linewidth}
+
+	\textit{An open web application to produce ground-truth datasets for matching}
+	
+	\medskip
+	
+	\textbf{Contributions}
+	
+	$\rightarrow$ web app to annotate matching links
+	
+	$\rightarrow$ proof-of-concept of a ``serverless'' deployment with user input through git
+	
+	\medskip
+	
+	\textbf{Takeways}
+	
+	$\rightarrow$ ground-truth datasets to optimise the matching algorithm
+	
+	$\rightarrow$ git feedback architecture to be integrated into the dashboard
+
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+ (suite de JRIGN 2024, target JASSS)
+
+
+
+
+
+\end{document}
