@@ -61,3 +61,6 @@
 [submodule "Models/Matching/Validation/annotate"]
 	path = Models/Matching/Validation/annotate
 	url = git@github.com:subdense/annotate.git
+[submodule "Docs/Communications/2025/ILUS2025/ILUS2025-SubdenseMatching"]
+	path = Docs/Communications/2025/ILUS2025/ILUS2025-SubdenseMatching
+	url = git@github.com:subdense/ILUS2025-SubdenseMatching.git
