@@ -64,3 +64,6 @@
 [submodule "Docs/Communications/2025/ILUS2025/ILUS2025-SubdenseMatching"]
 	path = Docs/Communications/2025/ILUS2025/ILUS2025-SubdenseMatching
 	url = git@github.com:subdense/ILUS2025-SubdenseMatching.git
+[submodule "Docs/Papers/ISPRS2026-DensificationIasi"]
+	path = Docs/Papers/ISPRS2026-DensificationIasi
+	url = git@github.com:subdense/ISPRS2026-DensificationIasi.git
