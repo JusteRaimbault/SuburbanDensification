@@ -30,7 +30,7 @@
 	url = git@github.com:subdense/MatchingValidationSampling.git
 [submodule "Models/Matching/pymatch"]
 	path = Models/Matching/pymatch
-	url = git@github.com:umrlastig/pymatch.git
+	url = git@github.com:umrlastig/pygeomatch.git
 [submodule "Models/Statistics/DensificationDrivers"]
 	path = Models/Statistics/DensificationDrivers
 	url = git@github.com:subdense/DensificationDrivers.git
