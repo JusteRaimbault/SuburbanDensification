@@ -29,7 +29,7 @@
 	path = Models/Matching/Validation/MatchingValidationSampling
 	url = git@github.com:subdense/MatchingValidationSampling.git
 [submodule "Models/Matching/pymatch"]
-	path = Models/Matching/pymatch
+	path = Models/Matching/pygeomatch
 	url = git@github.com:umrlastig/pygeomatch.git
 [submodule "Models/Statistics/DensificationDrivers"]
 	path = Models/Statistics/DensificationDrivers
